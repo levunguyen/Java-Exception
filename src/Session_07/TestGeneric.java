@@ -1,9 +1,13 @@
 package Session_07;
 
-public class Modules extends Course{
+import Session_06_Inheritance.Student;
+
+import java.util.List;
+
+public class TestGeneric implements CRUDInterface<Student> {
+
     @Override
     public void save() {
-
     }
 
     @Override
@@ -16,9 +20,8 @@ public class Modules extends Course{
         return 0;
     }
 
-
     @Override
-    public boolean checkTC() {
-        return false;
+    public List<Student> findAll() {
+        return null;
     }
 }

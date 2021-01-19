@@ -11,6 +11,12 @@ public class Student {
         System.out.println("Sinh viên học lập trình");
     }
 
+    public Student(int id, String name, int age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
     public Student() {
     }
 

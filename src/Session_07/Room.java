@@ -6,7 +6,7 @@ public class Room implements CRUDInterface , Test{
 
     @Override
     public void save() {
-        
+
     }
 
     @Override

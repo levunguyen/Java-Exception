@@ -2,9 +2,9 @@ package Session_07;
 
 import java.util.List;
 
-public interface CRUDInterface{
+public interface CRUDInterface<T> {
     void save();
     void update();
     int delete();
-    List findAll();
+    List<T> findAll();
 }
